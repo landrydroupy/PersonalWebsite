@@ -17,6 +17,8 @@
     margin:0;
     padding:0;
     border-bottom:2px solid black;
+    font-family:Dubai;
+    font-weight:600;
 }
 
 body{
@@ -25,6 +27,8 @@ body{
 }
 .header{
     text-align:center;
+    font-family:Dubai;
+    font-size:400%;
 }
 
 .tab{
@@ -48,13 +52,36 @@ body{
 
 p{
     text-align:center;
+    font-size:150%;
+    font-family:'Book Antiqua';
 }
 
 h2{
     text-align:center;
+    font-size:200%;
+    text-decoration-line:underline;
 }
 
-ul{
-    text-align:center;
-    list-style-type:none;
+ul {
+    text-align: center;
+    list-style-type: none;
+     margin:20px;
+     padding:20px;
+     font-size:150%;
+     line-height:60px;
+     font-family:'Book Antiqua';
+}
+
+div{
+    margin:25px;
+          
+}
+
+.info {
+    background-color: white;
+    padding: 1em 1.5em;
+    display: block;
+    margin: 5px;
+    border-radius: 20px;
+    background-color:azure;
 }
