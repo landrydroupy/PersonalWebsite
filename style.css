@@ -1,5 +1,5 @@
 ﻿body{
-    background-color:aqua;
+    background-color:powderblue;
 }
 
 [data-tab-content]{
@@ -13,8 +13,48 @@
 .tabs{
     display:flex;
     justify-content:space-around;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    border-bottom:2px solid black;
 }
 
+body{
+    padding:0;
+    margin:0;
+}
 .header{
     text-align:center;
+}
+
+.tab{
+    cursor:pointer;
+    padding:10px;
+}
+
+.tab:hover{
+    background-color:#AAA;
+}
+
+.tab.active{
+    background-color:darkgray;
+}
+
+.tab-content{
+    margin-left:20px;
+    margin-right:20px;
+
+}
+
+p{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+ul{
+    text-align:center;
+    list-style-type:none;
 }
